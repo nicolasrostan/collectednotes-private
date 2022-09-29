@@ -1,7 +1,7 @@
 {
     "name": "CollectedNotes private default",
     "description": "Sets the visibility of new notes to private",
-    "version": "1.0",
+    "version": "0.0.1",
     "manifest_version": 3,
     "content_scripts": [
         {
@@ -9,5 +9,8 @@
           "run_at": "document_idle",
           "js": ["content-script.js"]
         }
-    ]
+    ],
+    "icons": {
+        "128": "128.png"
+    }
 }
